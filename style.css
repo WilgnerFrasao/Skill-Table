@@ -1,0 +1,82 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size:11px;
+    text-align: center;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:hsl(228, 45%, 44%); ;
+}
+
+h1{
+    color: white;
+    font-size:30px;
+
+}
+h2{
+   color: hsl(241, 100%, 89%);
+   font-size: 20px;
+   
+}
+p{  
+    color: hsl(241, 100%, 89%);
+    padding:0 20px 0 15px;
+    font-size:18px;
+}
+.numero-menor{
+    padding: 20px;
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    
+
+}
+.numero{
+    font-size: 70px;
+    color: white;
+    
+    
+}
+
+.numeros{
+    margin-left: 70px;
+    width: 170px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)
+    );
+    padding-top: 25px;
+
+}
+
+#campo-esquerdo{
+   width:300px;
+   height: 400px;
+   padding: 10px;
+   border-radius: 20px;
+   background-image:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+#campo-direito{
+   width:300px;
+   height: 400px;
+   padding: 10px;
+   border-radius: 20px;
+   background-color: rebeccapurple
+   
+
+}
+
+
+
+
+
+/*--<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style>*/
