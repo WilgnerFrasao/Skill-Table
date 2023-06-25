@@ -2,11 +2,13 @@ body{
     font-family: 'Hanken Grotesk', sans-serif;
     font-size:11px;
     text-align: center;
-    width: auto;
+    width: 190vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: hsl(221, 100%, 96%);
 }
 
 a{
@@ -28,7 +30,7 @@ p{
     padding:0 20px 0 15px;
     font-size:18px;
 }
-.numero-menor{
+.numero-menor-esquerdo{
     padding: 20px;
     color: white;
     opacity: 0.5;
@@ -36,14 +38,14 @@ p{
     
 
 }
-.numero{
+.numero-esquerdo{
     font-size: 70px;
     color: white;
     
     
 }
 
-.numeros{
+.numeros-esquerdo{
     margin-left: 70px;
     width: 170px;
     height: 140px;
@@ -67,8 +69,94 @@ p{
    height: 400px;
    padding: 10px;
    border-radius: 20px;
-   background-color: rebeccapurple
+   background-color: white;
    
+
+}
+
+.summary{
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+    margin-left:20px ;
+    margin-bottom: 15px;
+}
+
+.Reaction{
+    background-color:  hsl(0, 100%, 98%);
+    width: 230px;
+    margin: 0px 20px;
+    padding: 12px;
+    float: left;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.Reaction span.nome{
+    color: hsl(0, 100%, 67%);
+}
+
+.numero1{
+   color: hsl(224, 30%, 27%);
+}
+
+.numero2{
+    color: hsl(241, 100%, 89%);
+}
+
+.Memory{
+    background-color:hsl(39, 94%, 88%);
+    width: 230px;
+    margin: 10px 20px;
+    padding: 12px;
+    float: left;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+.Memory span.nome{
+    color:  hsl(39, 100%, 56%);
+}
+
+.Verbal{
+    background-color:  hsl(165, 38%, 94%) ;
+    width: 230px;
+    margin: 2px 20px;
+    padding: 12px;
+    float: left;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.Verbal span.nome{
+    color:  hsl(166, 100%, 37%);
+
+}
+
+.Visual{
+    background-color:hsl(240, 23%, 94%);
+    width: 230px;
+    margin: 7px 20px;
+    padding: 12px;
+    float: left;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.Visual span.nome{
+    color: hsl(234, 85%, 45%);
+}
+
+a{
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    text-decoration:none;
+    width: 230px;
+    margin: 40px 20px;
+    padding: 12px;
+    float: left;
+    font-size: 18px;
+    border-radius: 20px;
 
 }
 
