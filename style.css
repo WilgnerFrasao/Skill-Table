@@ -1,14 +1,25 @@
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size:11px;
     text-align: center;
-    width: 190vh;
-    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: hsl(221, 100%, 96%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
 }
 
 a{
@@ -53,6 +64,7 @@ p{
     background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)
     );
     padding-top: 25px;
+    position: static;
 
 }
 
@@ -62,31 +74,40 @@ p{
    padding: 10px;
    border-radius: 20px;
    background-image:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+   position: relative;
+   z-index: 1;
 }
 
 #campo-direito{
-   width:300px;
+   width:330px;
    height: 400px;
+   margin-left: -30px;
    padding: 10px;
-   border-radius: 20px;
    background-color: white;
+   position: relative;
+   border-radius: 20px;
+   z-index: 0;
+   
+   
+   
    
 
 }
 
 .summary{
     color: hsl(224, 30%, 27%);
-    text-align: left;
-    margin-left:20px ;
+    text-align: right;
+    margin-left:60px ;
     margin-bottom: 15px;
+    float: left;
 }
 
 .Reaction{
     background-color:  hsl(0, 100%, 98%);
     width: 230px;
-    margin: 0px 20px;
+    margin: 5px 20px 0px;
     padding: 12px;
-    float: left;
+    float: right;
     font-size: 18px;
     border-radius: 10px;
     
@@ -108,7 +129,7 @@ p{
     width: 230px;
     margin: 10px 20px;
     padding: 12px;
-    float: left;
+    float: right;
     font-size: 18px;
     border-radius: 10px;
     
@@ -123,7 +144,7 @@ p{
     width: 230px;
     margin: 2px 20px;
     padding: 12px;
-    float: left;
+    float: right;
     font-size: 18px;
     border-radius: 10px;
 }
@@ -138,7 +159,7 @@ p{
     width: 230px;
     margin: 7px 20px;
     padding: 12px;
-    float: left;
+    float: right;
     font-size: 18px;
     border-radius: 10px;
 }
@@ -154,10 +175,15 @@ a{
     width: 230px;
     margin: 40px 20px;
     padding: 12px;
-    float: left;
+    float: right;
     font-size: 18px;
     border-radius: 20px;
 
+}
+
+.icon{
+    float: left;
+    padding-top:2px ;
 }
 
 
